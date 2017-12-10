@@ -2,179 +2,13 @@
 <html>
     <head>
         <title>Technology - BBC News</title>
-        <style type="text/css"> 
-            #top-bar{
-                width:1000px;
-                height:40px;
-                margin: 0 auto;
-            }
-            
-            body{
-                margin:0;
-                padding: 0;
-                font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
-            }
-            
-            #logo{
-                margin:10px 10px 0 0;
-                width:80px;
-                float:left;
-            }
-            
-            #signin-img{
-                margin:10px 10px 10px 15px;
-                width:25px;
-                float:left;
-            }
-            
-            .topBar-tabs{
-                float:left;
-                border-left: 0.7px #cccccc solid;
-                height:100%;
-            }
-            
-            #signinText{
-                font-weight: bold;
-                font-size: 80%;
-                position: relative;
-                top:13px;
-                padding-right: 80px;
-            }
-            
-            .topbar-text{
-                
-                font-weight: bold;
-                font-size: 80%;
-                padding: 13px 12px 0 12px;
-                height: 27px;
-            }
-            
-            #moreImg{
-                width: 10px;
-                margin-left: 80px;
-            }
-            
-            #searchbox{
-                background-color: #E4E4E4;
-                margin: 8px 0 8px 8px;
-                padding: 5px;
-                border: none;
-                font-size: 12px;
-                font-weight: bold;
-                float: left;
-            }
-            
-            #searchGlass{
-                
-                height:26px;
-                margin:7px 8px 8px 0;
-                
-            }
-            
-            #nav-bar{
-                background-color: #B91C21;
-                width:100%;
-                height:55px;
-/*                float: left;    */
-            }
-            
-            #news-bar{
-                width:1000px;
-                margin:0 auto; 
-            }
-            
-            h1{
-                margin: 0;
-                padding: 0;
-                color:white;
-                font-size: 40px;
-                font-weight:normal;
-                padding-top:6px;
-            }
-            
-            #menu-bar{
-                background-color: #A71A1E;
-                width:100%;
-                
-            }
-            
-            #menu-bar2{
-                width:1000px;
-                margin:0 auto; 
-                height:35px;
-            }
-            
-            #menu-bar2 a{
-                text-decoration: none;
-                color:white;
-                font-size:85%;
-                margin-top: 7px;
-                padding: 0 9px;
-                border-right: 0.7px #B94648 solid;
-                position: relative;
-                top:8px;
-            }
-            
-            #menu-bar2 a:hover{
-                text-decoration: underline;
-                
-            }
-            
-            .home{
-                padding-left: 0 !important;
-            }
-            
-            .no-border{
-                border:none !important;
-            }
-            
-            
-            
-            #arrow-img{
-                height: 7px;
-                position: relative;
-                top:4px;
-            }
-            
-            #page-id{
-                width:1000px;
-                margin:0 auto; 
-                
-/*                height:30px;*/
-            }
-            #page-id h3{
-                margin-top: 10px;
-            }
-            
-            #page-id h3 u{
-                color:#404040; 
-                font-weight: normal;
-                text-decoration: none;
-                border-bottom: 3px #B91C21 solid;   
-            }
-            
-            #main-article h2{
-                font-size:35px;
-                font-weight: bold;
-            }
-            
-            #article-title{
-                text-decoration: none;   
-            }
-            
-            #article-title:visited {
-                color: dimgray;
-            }
-            
-            #article-title:hover{
-                color:#1968A6;
-                text-decoration: none;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="bbc.css">
+         
         
     </head>
     <body>
         <div id="top-bar">
+            
             <img id="logo" src="image/bbc-logo.png">
             <div id="signTab" class="topBar-tabs">
                 <img id="signin-img" src="image/signIn.png">
@@ -202,6 +36,7 @@
             
         </div>
         
+        <div class="clear" ></div>
         <div id="menu-bar"> 
             <div id="menu-bar2" >
                 <a href="" class="home">Home</a>
@@ -223,7 +58,66 @@
         <div id="page-id">
             <div id="main-article">
                 <h3><u>Technology</u></h3>
-                <h2><a id="article-title" href="http://www.bbc.com/news/technology-42193796">Apple Mac security issue may reoccur</a></h2>
+                <div id="article-container">
+                    <h3>
+                        <a id="article-title" href="http://www.bbc.com/news/technology-42193796">Apple Mac security issue may reoccur</a>
+                    </h3>
+                    <div id="article-summary">
+                        
+                        <p>Mac owners who upgraded to remove a serious security bug may still be vulnerable to the loophole.</p>
+                        
+                        <p><img id="clock" src="image/clock.png"> <span id="date">4 December 2017</span><a id="clock-a" href="">Technology</a></p>
+                        
+                        <hr id="hr-line" align="left">
+                        
+                        <div id="links">
+                            
+                            <p><a href="http://www.bbc.com/news/technology-42174168">Apple apologises and fixes security flaw</a> </p>
+                            
+                            <p><a href="http://www.bbc.com/news/technology-42166438">Is Apple getting sloppy?</a> </p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <img id="article-img" src="image/apple-img.png">
+                </div>
+            </div>
+
+            
+            <div id="watch-listen">
+                
+                <h4 >Watch/Listen</h4> 
+                <img class="watch-listen-img" src="image/WL1.png">
+                <div class="side-article">
+                    <p>
+                        <a class="wl-a" href="http://www.bbc.com/news/av/technology-42161388/the-crown-the-visual-effects-secrets-of-netflix-s-drama">The Crown: The visual effects secrets</a>
+                    </p>
+                    
+                    <p id="para">
+                        <img class="clock-img" src="image/clock.png">
+                        <span class="date">7 December 2017</span>
+                        <br>
+                        <a class="clock-a" href="">Technology</a>
+                    </p>
+                </div>
+                
+                <img class="watch-listen-img" src="image/WL2.png">
+                <div class="side-article">
+                    <p>
+                        <a class="wl-a" href="">Hi-tech legs help amputee reporter snowboard</a>
+                    </p>
+<!--                    <p><img class="clock" src="image/clock.png"> <span class="date">6 December 2017</span><br><a class="clock-a" href="">Technology</a></p>-->
+                </div>
+                
+<!--
+                <img class="watch-listen-img" src="image/WL3.png">
+                <div class="side-article">
+                    <p><a class="wl-a" href="">'Schoolgirl' exposes online groomers</a></p>
+-->
+<!--                    <p><img class="clock" src="image/clock.png"> <span class="date">6 December 2017</span><br><a class="clock-a" href="">Technology</a></p>-->
+<!--                </div>-->
+                
             </div>
         </div>
         
